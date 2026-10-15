@@ -67,6 +67,18 @@ h2{font-size:1.25rem;font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
 .rule.key span{color:#D6D1FF}
 .rule.key .badge{display:inline-block;background:var(--y);color:var(--ink);font-size:.72rem;font-weight:800;padding:2px 8px;border-radius:6px;margin-bottom:6px;letter-spacing:.02em}
 .rule.key .why{display:block;margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);color:#fff;font-weight:700;font-size:.92rem}
+/* 왜 차별화상회인가 */
+.why{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
+.why .vid{display:flex;gap:16px;align-items:center;padding:16px 18px;background:linear-gradient(150deg,#3B2FC9,#2B2290);color:#fff;text-decoration:none}
+.why .vid img{flex:none;width:84px;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.3)}
+.why .vid b{display:block;font-size:1.05rem}
+.why .vid span{display:block;color:#D6D1FF;font-size:.86rem;margin-top:3px;line-height:1.45}
+.why .vid .play{margin-left:auto;flex:none;width:44px;height:44px;border-radius:50%;background:var(--y);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:1.1rem;font-weight:900}
+.why .pts{padding:16px 18px 18px}
+.why .pt{display:flex;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:.94rem;line-height:1.55}
+.why .pt:first-child{border-top:none;padding-top:0}
+.why .pt i{flex:none;font-style:normal;width:30px;height:30px;border-radius:9px;background:var(--pl);color:var(--p);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.85rem}
+.why .pt b{color:var(--pd)}
 /* 초보자 코너 */
 .newbie{background:var(--card);border:1.5px solid var(--pm);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
 .newbie>summary{cursor:pointer;list-style:none;padding:18px 20px;display:flex;align-items:center;gap:12px;background:linear-gradient(90deg,#EEEBFF,#fff)}
@@ -235,6 +247,21 @@ footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);font-si
     <div class="rule"><div class="n">2</div><div><b>가입 후 "반짝배송 신청"까지 끝내야 실적</b><span>가입만으로는 실적이 아닙니다. 배송지·매장 출입 방법까지 입력해야 합니다.</span></div></div>
     <div class="rule"><div class="n">3</div><div><b>영업 전에 지도에서 배송 가능 지역인지 확인</b><span>지도에 없는 지역은 본사 승인에 3일 걸리고, 승인이 거부되면 실적으로 인정되지 않습니다.</span></div></div>
     <div class="rule key"><div class="n">4</div><div><span class="badge">가장 중요</span><b>가입 후 혜택 사용법을 꼭 설명해 주세요</b><span>업종별 찜 리스트 · 쿠폰 · 포인트 · 100원 딜을 어디서 어떻게 쓰는지 사장님 폰 화면으로 직접 보여드리세요. 그래야 첫 주문이 나옵니다.</span><span class="why">가입만 늘고 구매가 안 나오면 본사가 영업을 빠르게 중단합니다. 우리 목표는 가입이 아니라 사장님의 첫 주문입니다.</span></div></div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="eyebrow">Why</div>
+  <h2>왜 차별화상회인가</h2>
+  <p class="sub">영업자 본인이 먼저 설득돼야 목소리에 힘이 들어갑니다. 출동 전에 한 번만 보세요.</p>
+  <div class="why">
+    <a class="vid" href="files/edu1.mp4" target="_blank"><img src="files/edu1-poster.jpg" alt=""><div><b>영업 교육 영상 1편 (6분)</b><span>왜 차별화상회인가, 어떻게 파는가 · 세로 영상 · 와이파이 권장(18MB)</span></div><div class="play">▶</div></a>
+    <div class="pts">
+      <div class="pt"><i>1</i><div><b>우리는 팔러 가는 사람이 아니라 주러 가는 사람입니다.</b> 사장님이 내는 돈 0원, 받는 건 15만원.</div></div>
+      <div class="pt"><i>2</i><div><b>본사가 우리에게 수수료를 주는 이유.</b> 식자재는 매주 다시 사는 장사라 가입 1건의 가치가 큽니다. 사장님 돈을 뜯는 구조가 아닙니다.</div></div>
+      <div class="pt"><i>3</i><div><b>거절 이유는 돈이 아니라 시간입니다.</b> 바쁠 때 갔거나 설명이 길었거나. 죄송할 게 없습니다.</div></div>
+      <div class="pt"><i>4</i><div><b>믿기지 않으면 오늘 테스트 가입해서 직접 써보세요.</b> 내일 아침 냉장고에 들어오는 걸 본 사람의 말은 다릅니다.</div></div>
+    </div>
   </div>
 </section>
 
@@ -426,7 +453,7 @@ footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);font-si
 <nav class="dock" aria-label="빠른 이동"><div class="in">
   <a class="map" href="https://salescompany0920-afk.github.io/sm-zone-6e51f8a3/" target="_blank"><i>🗺</i>지도</a>
   <a href="#talk"><i>💬</i>첫마디</a>
-  <a href="#rules"><i>✅</i>규칙</a>
+  <a href="#why"><i>🎬</i>교육</a>
   <a href="#contact"><i>💛</i>카톡</a>
 </div></nav>
 </body>
